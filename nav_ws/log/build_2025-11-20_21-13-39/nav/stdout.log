@@ -1,0 +1,45 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2_msgs: 0.25.16 (/opt/ros/humble/share/tf2_msgs/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/administrator/ros2_workspaces/nav_ws/build/nav
+[ 50%] [32mBuilding CXX object CMakeFiles/tf_remapper.dir/src/tf_remapper.cpp.o[0m
+[100%] [32m[1mLinking CXX executable tf_remapper[0m
+[100%] Built target tf_remapper
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/src/tf_remapper.cpp
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/lib/nav/tf_remapper
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/ament_index/resource_index/package_run_dependencies/nav
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/ament_index/resource_index/parent_prefix_path/nav
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/environment/ament_prefix_path.sh
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/environment/ament_prefix_path.dsv
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/environment/path.sh
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/environment/path.dsv
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/local_setup.bash
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/local_setup.sh
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/local_setup.zsh
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/local_setup.dsv
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/package.dsv
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/ament_index/resource_index/packages/nav
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/cmake/navConfig.cmake
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/cmake/navConfig-version.cmake
+-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/package.xml

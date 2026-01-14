@@ -1,0 +1,86 @@
+[0.020s] Invoking command in '/home/administrator/ros2_workspaces/rplidar_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2_workspaces/rplidar_ws/build/rplidar_ros -- -j4 -l4
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target rplidar_node[0m
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition[0m
+[0.121s] [  5%] Built target rplidar_client
+[0.153s] [  7%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o[0m
+[0.171s] [ 10%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o[0m
+[4.942s] In file included from [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+[4.942s]                  from [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[4.943s]                  from [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/sdk/include/sl_lidar.h:36[m[K,
+[4.943s]                  from [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[4.943s] [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.943s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[4.943s]       |                [01;35m[K^[m[K
+[4.946s] In file included from [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[4.946s]                  from [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/sdk/include/sl_lidar.h:36[m[K,
+[4.946s]                  from [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[4.947s] [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.947s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[4.947s]       |                    [01;35m[K^[m[K
+[5.112s] In file included from [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+[5.112s]                  from [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[5.112s]                  from [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/sdk/include/sl_lidar.h:36[m[K,
+[5.112s]                  from [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[5.113s] [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.113s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[5.113s]       |                [01;35m[K^[m[K
+[5.116s] In file included from [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[5.116s]                  from [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/sdk/include/sl_lidar.h:36[m[K,
+[5.116s]                  from [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[5.116s] [01m[K/home/administrator/ros2_workspaces/rplidar_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.116s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[5.116s]       |                    [01;35m[K^[m[K
+[10.089s] [ 13%] [32m[1mLinking CXX executable rplidar_composition[0m
+[10.390s] [ 15%] [32m[1mLinking CXX executable rplidar_node[0m
+[10.606s] [ 57%] Built target rplidar_composition
+[10.879s] [100%] Built target rplidar_node
+[10.893s] Invoked command in '/home/administrator/ros2_workspaces/rplidar_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2_workspaces/rplidar_ws/build/rplidar_ros -- -j4 -l4
+[10.905s] Invoking command in '/home/administrator/ros2_workspaces/rplidar_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2_workspaces/rplidar_ws/build/rplidar_ros
+[10.914s] -- Install configuration: ""
+[10.914s] -- Execute custom install script
+[10.915s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[10.915s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[10.915s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[10.916s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[10.916s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[10.916s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[10.916s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[10.916s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[10.917s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[10.917s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[10.917s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[10.917s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[10.917s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[10.917s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[10.917s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[10.918s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[10.918s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[10.918s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[10.918s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[10.918s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[10.918s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[10.919s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[10.919s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[10.919s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[10.919s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[10.920s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[10.920s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[10.920s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[10.921s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[10.921s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[10.921s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[10.921s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[10.922s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[10.922s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[10.922s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[10.923s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[10.923s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[10.924s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[10.924s] -- Symlinking: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[10.935s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[10.935s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.935s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.936s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[10.936s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[10.936s] -- Up-to-date symlink: /home/administrator/ros2_workspaces/rplidar_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[10.939s] Invoked command in '/home/administrator/ros2_workspaces/rplidar_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2_workspaces/rplidar_ws/build/rplidar_ros

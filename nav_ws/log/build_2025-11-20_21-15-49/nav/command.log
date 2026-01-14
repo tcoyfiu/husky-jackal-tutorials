@@ -1,0 +1,4 @@
+Invoking command in '/home/administrator/ros2_workspaces/nav_ws/build/nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2_workspaces/nav_ws/build/nav -- -j4 -l4
+Invoked command in '/home/administrator/ros2_workspaces/nav_ws/build/nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/administrator/ros2_workspaces/nav_ws/build/nav -- -j4 -l4
+Invoking command in '/home/administrator/ros2_workspaces/nav_ws/build/nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2_workspaces/nav_ws/build/nav
+Invoked command in '/home/administrator/ros2_workspaces/nav_ws/build/nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/administrator/ros2_workspaces/nav_ws/build/nav

@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.000754] (nav) JobQueued: {'identifier': 'nav', 'dependencies': OrderedDict()}
+[0.000998] (nav) JobStarted: {'identifier': 'nav'}
+[0.014312] (nav) JobProgress: {'identifier': 'nav', 'progress': 'cmake'}
+[0.014528] (nav) Command: {'cmd': ['/usr/bin/cmake', '/home/administrator/ros2_workspaces/nav_ws/src/nav', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/administrator/ros2_workspaces/nav_ws/install/nav'], 'cwd': '/home/administrator/ros2_workspaces/nav_ws/build/nav', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,8415,0'), ('USER', 'administrator'), ('SSH_CLIENT', '192.168.1.118 45570 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/administrator'), ('OLDPWD', '/home/administrator/ros2_workspaces/nav_ws/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'administrator'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('ROS_DOMAIN_ID', '67'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/administrator/ros2_workspaces/nav_ws/build/nav'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.118 45570 192.168.1.221 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%3'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.029476] (nav) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099481] (-) TimerEvent: {}
+[0.199864] (-) TimerEvent: {}
+[0.206350] (nav) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.217743] (nav) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.256631] (nav) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.260727] (nav) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.269659] (nav) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.285290] (nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.299974] (-) TimerEvent: {}
+[0.304432] (nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.352363] (nav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.354619] (nav) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400095] (-) TimerEvent: {}
+[0.483507] (nav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500201] (-) TimerEvent: {}
+[0.556027] (nav) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.16 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[0.600323] (-) TimerEvent: {}
+[0.639166] (nav) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700440] (-) TimerEvent: {}
+[0.756394] (nav) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.756695] (nav) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.756842] (nav) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.757660] (nav) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.759150] (nav) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.759334] (nav) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.759948] (nav) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.762372] (nav) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.778843] (nav) StdoutLine: {'line': b'-- Generating done\n'}
+[0.784760] (nav) StdoutLine: {'line': b'-- Build files have been written to: /home/administrator/ros2_workspaces/nav_ws/build/nav\n'}
+[0.793842] (nav) CommandEnded: {'returncode': 0}
+[0.794603] (nav) JobProgress: {'identifier': 'nav', 'progress': 'build'}
+[0.795631] (nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/administrator/ros2_workspaces/nav_ws/build/nav', '--', '-j4', '-l4'], 'cwd': '/home/administrator/ros2_workspaces/nav_ws/build/nav', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,8415,0'), ('USER', 'administrator'), ('SSH_CLIENT', '192.168.1.118 45570 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/administrator'), ('OLDPWD', '/home/administrator/ros2_workspaces/nav_ws/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'administrator'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('ROS_DOMAIN_ID', '67'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/administrator/ros2_workspaces/nav_ws/build/nav'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.118 45570 192.168.1.221 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%3'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.800557] (-) TimerEvent: {}
+[0.854336] (nav) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tf_remapper.dir/src/tf_remapper.cpp.o\x1b[0m\n'}
+[0.900674] (-) TimerEvent: {}
+[1.001015] (-) TimerEvent: {}
+[1.101375] (-) TimerEvent: {}
+[1.201745] (-) TimerEvent: {}
+[1.302124] (-) TimerEvent: {}
+[1.402489] (-) TimerEvent: {}
+[1.502909] (-) TimerEvent: {}
+[1.603323] (-) TimerEvent: {}
+[1.703785] (-) TimerEvent: {}
+[1.804241] (-) TimerEvent: {}
+[1.904636] (-) TimerEvent: {}
+[2.005020] (-) TimerEvent: {}
+[2.105394] (-) TimerEvent: {}
+[2.205824] (-) TimerEvent: {}
+[2.306269] (-) TimerEvent: {}
+[2.406762] (-) TimerEvent: {}
+[2.507117] (-) TimerEvent: {}
+[2.607518] (-) TimerEvent: {}
+[2.707892] (-) TimerEvent: {}
+[2.808261] (-) TimerEvent: {}
+[2.908660] (-) TimerEvent: {}
+[3.009041] (-) TimerEvent: {}
+[3.109501] (-) TimerEvent: {}
+[3.209923] (-) TimerEvent: {}
+[3.310410] (-) TimerEvent: {}
+[3.410869] (-) TimerEvent: {}
+[3.511336] (-) TimerEvent: {}
+[3.611755] (-) TimerEvent: {}
+[3.712147] (-) TimerEvent: {}
+[3.812574] (-) TimerEvent: {}
+[3.912952] (-) TimerEvent: {}
+[4.013337] (-) TimerEvent: {}
+[4.113723] (-) TimerEvent: {}
+[4.214112] (-) TimerEvent: {}
+[4.314498] (-) TimerEvent: {}
+[4.414879] (-) TimerEvent: {}
+[4.515274] (-) TimerEvent: {}
+[4.615645] (-) TimerEvent: {}
+[4.716034] (-) TimerEvent: {}
+[4.816416] (-) TimerEvent: {}
+[4.916789] (-) TimerEvent: {}
+[5.017179] (-) TimerEvent: {}
+[5.117557] (-) TimerEvent: {}
+[5.217938] (-) TimerEvent: {}
+[5.318387] (-) TimerEvent: {}
+[5.418765] (-) TimerEvent: {}
+[5.519197] (-) TimerEvent: {}
+[5.619576] (-) TimerEvent: {}
+[5.719961] (-) TimerEvent: {}
+[5.820368] (-) TimerEvent: {}
+[5.920820] (-) TimerEvent: {}
+[6.021201] (-) TimerEvent: {}
+[6.121618] (-) TimerEvent: {}
+[6.221987] (-) TimerEvent: {}
+[6.322373] (-) TimerEvent: {}
+[6.422787] (-) TimerEvent: {}
+[6.523253] (-) TimerEvent: {}
+[6.623687] (-) TimerEvent: {}
+[6.724092] (-) TimerEvent: {}
+[6.824609] (-) TimerEvent: {}
+[6.925094] (-) TimerEvent: {}
+[7.025465] (-) TimerEvent: {}
+[7.125817] (-) TimerEvent: {}
+[7.226338] (-) TimerEvent: {}
+[7.326781] (-) TimerEvent: {}
+[7.427213] (-) TimerEvent: {}
+[7.527720] (-) TimerEvent: {}
+[7.628107] (-) TimerEvent: {}
+[7.728481] (-) TimerEvent: {}
+[7.828872] (-) TimerEvent: {}
+[7.929235] (-) TimerEvent: {}
+[8.029647] (-) TimerEvent: {}
+[8.130037] (-) TimerEvent: {}
+[8.230475] (-) TimerEvent: {}
+[8.330830] (-) TimerEvent: {}
+[8.431207] (-) TimerEvent: {}
+[8.531671] (-) TimerEvent: {}
+[8.632146] (-) TimerEvent: {}
+[8.732547] (-) TimerEvent: {}
+[8.832922] (-) TimerEvent: {}
+[8.933297] (-) TimerEvent: {}
+[9.033681] (-) TimerEvent: {}
+[9.134051] (-) TimerEvent: {}
+[9.234427] (-) TimerEvent: {}
+[9.334799] (-) TimerEvent: {}
+[9.435175] (-) TimerEvent: {}
+[9.535550] (-) TimerEvent: {}
+[9.635914] (-) TimerEvent: {}
+[9.736286] (-) TimerEvent: {}
+[9.836690] (-) TimerEvent: {}
+[9.937089] (-) TimerEvent: {}
+[10.037504] (-) TimerEvent: {}
+[10.137867] (-) TimerEvent: {}
+[10.238236] (-) TimerEvent: {}
+[10.338599] (-) TimerEvent: {}
+[10.438961] (-) TimerEvent: {}
+[10.539346] (-) TimerEvent: {}
+[10.639726] (-) TimerEvent: {}
+[10.740162] (-) TimerEvent: {}
+[10.840554] (-) TimerEvent: {}
+[10.940978] (-) TimerEvent: {}
+[11.041363] (-) TimerEvent: {}
+[11.141742] (-) TimerEvent: {}
+[11.242127] (-) TimerEvent: {}
+[11.342493] (-) TimerEvent: {}
+[11.442848] (-) TimerEvent: {}
+[11.543338] (-) TimerEvent: {}
+[11.643708] (-) TimerEvent: {}
+[11.744091] (-) TimerEvent: {}
+[11.844455] (-) TimerEvent: {}
+[11.944873] (-) TimerEvent: {}
+[12.045332] (-) TimerEvent: {}
+[12.145680] (-) TimerEvent: {}
+[12.246106] (-) TimerEvent: {}
+[12.346516] (-) TimerEvent: {}
+[12.446922] (-) TimerEvent: {}
+[12.547323] (-) TimerEvent: {}
+[12.647734] (-) TimerEvent: {}
+[12.748101] (-) TimerEvent: {}
+[12.848448] (-) TimerEvent: {}
+[12.948824] (-) TimerEvent: {}
+[13.049187] (-) TimerEvent: {}
+[13.149578] (-) TimerEvent: {}
+[13.249954] (-) TimerEvent: {}
+[13.350424] (-) TimerEvent: {}
+[13.450815] (-) TimerEvent: {}
+[13.549581] (nav) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tf_remapper\x1b[0m\n'}
+[13.550912] (-) TimerEvent: {}
+[13.651588] (-) TimerEvent: {}
+[13.752816] (-) TimerEvent: {}
+[13.853234] (-) TimerEvent: {}
+[13.953590] (-) TimerEvent: {}
+[14.053935] (-) TimerEvent: {}
+[14.154299] (-) TimerEvent: {}
+[14.246798] (nav) StdoutLine: {'line': b'[100%] Built target tf_remapper\n'}
+[14.254415] (-) TimerEvent: {}
+[14.260567] (nav) CommandEnded: {'returncode': 0}
+[14.261492] (nav) JobProgress: {'identifier': 'nav', 'progress': 'install'}
+[14.272204] (nav) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/administrator/ros2_workspaces/nav_ws/build/nav'], 'cwd': '/home/administrator/ros2_workspaces/nav_ws/build/nav', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,8415,0'), ('USER', 'administrator'), ('SSH_CLIENT', '192.168.1.118 45570 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/administrator'), ('OLDPWD', '/home/administrator/ros2_workspaces/nav_ws/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'administrator'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('ROS_DOMAIN_ID', '67'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/administrator/ros2_workspaces/nav_ws/build/nav'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.118 45570 192.168.1.221 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%3'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.281748] (nav) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.282497] (nav) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.283352] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/src/tf_remapper.cpp\n'}
+[14.294423] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/lib/nav/tf_remapper\n'}
+[14.304738] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/ament_index/resource_index/package_run_dependencies/nav\n'}
+[14.314588] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/ament_index/resource_index/parent_prefix_path/nav\n'}
+[14.324434] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/environment/ament_prefix_path.sh\n'}
+[14.334460] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/environment/ament_prefix_path.dsv\n'}
+[14.343745] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/environment/path.sh\n'}
+[14.353343] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/environment/path.dsv\n'}
+[14.354498] (-) TimerEvent: {}
+[14.364138] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/local_setup.bash\n'}
+[14.374891] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/local_setup.sh\n'}
+[14.384945] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/local_setup.zsh\n'}
+[14.394507] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/local_setup.dsv\n'}
+[14.404538] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/package.dsv\n'}
+[14.414202] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/ament_index/resource_index/packages/nav\n'}
+[14.423908] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/cmake/navConfig.cmake\n'}
+[14.433398] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/cmake/navConfig-version.cmake\n'}
+[14.443044] (nav) StdoutLine: {'line': b'-- Symlinking: /home/administrator/ros2_workspaces/nav_ws/install/nav/share/nav/package.xml\n'}
+[14.453778] (nav) CommandEnded: {'returncode': 0}
+[14.454619] (-) TimerEvent: {}
+[14.490804] (nav) JobEnded: {'identifier': 'nav', 'rc': 0}
+[14.492403] (-) EventReactorShutdown: {}
